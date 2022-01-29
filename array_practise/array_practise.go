@@ -3,7 +3,7 @@ package arraypractise
 import "fmt"
 
 func Init() {
-	// arrayPractise()
+	arrayPractise()
 	slicesPractise()
 }
 
