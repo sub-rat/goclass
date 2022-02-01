@@ -1,7 +1,7 @@
 package main
 
 import (
-	arraypractise "github.com/sub-rat/goclass/array_practise"
+	datastructure "github.com/sub-rat/goclass/data_structure"
 )
 
 // var a int8 = -1
@@ -10,5 +10,6 @@ import (
 
 func main() {
 	// initials.Init()
-	arraypractise.Init()
+	// arraypractise.Init()
+	datastructure.Init()
 }
