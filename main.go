@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/sub-rat/goclass/structure"
+	"github.com/sub-rat/goclass/goroutines"
 )
 
 // var a int8 = -1
@@ -13,5 +13,9 @@ func main() {
 	// arraypractise.Init()
 	// datastructure.Init()
 	// structure.Init2(5, 2, 5)
-	structure.Init3()
+	// structure.Init3()
+	// goroutines.InitErrorStrategy()
+	// goroutines.Init()
+	goroutines.Init2()
+
 }
