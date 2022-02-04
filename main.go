@@ -16,6 +16,8 @@ func main() {
 	// structure.Init3()
 	// goroutines.InitErrorStrategy()
 	// goroutines.Init()
-	goroutines.Init2()
+	// goroutines.Init2()
+	// goroutines.InitClosingChannel()
+	goroutines.InitDeferExample()
 
 }

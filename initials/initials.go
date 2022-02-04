@@ -91,6 +91,7 @@ func SumOfEvenOdd(n, start int) (int, int, error) {
 }
 
 func Max(num1, num2 int) int {
+	defer fmt.Println("End of the Max function")
 	if num1 > num2 {
 		return num1
 	} else {
