@@ -1,6 +1,6 @@
 package main
 
-import "github.com/sub-rat/goclass/formattingexample"
+import examplejson "github.com/sub-rat/goclass/example_json"
 
 // var a int8 = -1
 
@@ -17,5 +17,6 @@ func main() {
 	// goroutines.Init2()
 	// goroutines.InitClosingChannel()
 	// goroutines.InitDeferExample()
-	formattingexample.InitFormattingExample()
+	// formattingexample.InitFormattingExample()
+	examplejson.InitExampleJson()
 }

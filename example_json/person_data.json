@@ -1,0 +1,39 @@
+{
+"page": 1,
+"data":[{
+    "first_name": "Ram",
+    "last_name": "Berma",
+    "age": 24,
+    "married": false,
+    "address": {
+      "country": "Nepal",
+      "street": "buddhanagar"
+    },
+    "phone": [
+      {
+        "home": "98989898"
+      },
+      {
+        "office": "897899798"
+      }
+    ]
+  },
+  {
+    "first_name": "Ram",
+    "last_name": "Berma",
+    "age": 24,
+    "married": false,
+    "address": {
+      "country": "Nepal",
+      "street": "buddhanagar"
+    },
+    "phone": [
+      {
+        "home": "98989898"
+      },
+      {
+        "office": "897899798"
+      }
+    ]
+  }]
+}
