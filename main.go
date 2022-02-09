@@ -18,5 +18,7 @@ func main() {
 	// goroutines.InitClosingChannel()
 	// goroutines.InitDeferExample()
 	// formattingexample.InitFormattingExample()
-	examplejson.InitExampleJson()
+	// examplejson.InitExampleJson()
+	// examplejson.InitExampleFile()
+	examplejson.InitExampleFileWrite()
 }

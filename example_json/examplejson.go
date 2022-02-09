@@ -95,29 +95,30 @@ func InitExampleJson() {
 	}
 	fmt.Println(ex7)
 
-	ex2Json := []byte(`{
-		"page": 1,
-		"data": [
-		  {
-			"first_name": "Ram1",
-			"last_name": "Berma2",
-			"age":25
-		  },
-		  {
-			"first_name": "Ram2",
-			"last_name": "Berma2",
-			"age":16
-		  },
-		  {
-			"first_name": "Ram3",
-			"last_name": "Berma3"
-		  },
-		  {
-			"first_name": "Ram4",
-			"last_name": "Berma4"
-		  }
-		]
-	  }`)
+	// ex2Json := []byte(`{
+	// 	"page": 1,
+	// 	"data": [
+	// 	  {
+	// 		"first_name": "Ram1",
+	// 		"last_name": "Berma2",
+	// 		"age":25
+	// 	  },
+	// 	  {
+	// 		"first_name": "Ram2",
+	// 		"last_name": "Berma2",
+	// 		"age":16
+	// 	  },
+	// 	  {
+	// 		"first_name": "Ram3",
+	// 		"last_name": "Berma3"
+	// 	  },
+	// 	  {
+	// 		"first_name": "Ram4",
+	// 		"last_name": "Berma4"
+	// 	  }
+	// 	]
+	//   }`)
+	ex2Json := ReadFile("./example_json/person_data.json")
 
 	fmt.Println("===========================")
 	fmt.Println("Unmarshaling the Person's record")

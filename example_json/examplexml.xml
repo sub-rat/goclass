@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<first_name>Ram</first_name>
-<last_name>Berma</last_name>
-<age>24</age>
-<address>
-    <country>Nepal</country>
-    <street>buddhanagar</street>
-</address>
-<phone>
-    <home>98989898</home>
-</phone>
-<phone>
-    <office>897899798</office>
-</phone>
+<root>
+  <page>1</page>
+  <data>
+    <first_name>Ram</first_name>
+    <last_name>Berma</last_name>
+    <age>24</age>
+    <married>false</married>
+    <address>
+      <country>Nepal</country>
+      <street>buddhanagar</street>
+    </address>
+    <phone>
+      <home>98989898</home>
+    </phone>
+    <phone>
+      <office>897899798</office>
+    </phone>
+  </data>
+  <data>
+    <first_name>Ram</first_name>
+    <last_name>Berma</last_name>
+    <age>24</age>
+    <married>false</married>
+    <address>
+      <country>Nepal</country>
+      <street>buddhanagar</street>
+    </address>
+    <phone>
+      <home>98989898</home>
+    </phone>
+    <phone>
+      <office>897899798</office>
+    </phone>
+  </data>
+</root>
