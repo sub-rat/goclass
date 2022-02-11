@@ -1,0 +1,23 @@
+mode: set
+github.com/sub-rat/goclass/array_practise/array_practise.go:5.13,8.2 2 0
+github.com/sub-rat/goclass/array_practise/array_practise.go:10.23,40.25 23 0
+github.com/sub-rat/goclass/array_practise/array_practise.go:47.2,47.32 1 0
+github.com/sub-rat/goclass/array_practise/array_practise.go:40.25,43.40 3 0
+github.com/sub-rat/goclass/array_practise/array_practise.go:43.40,45.4 1 0
+github.com/sub-rat/goclass/array_practise/array_practise.go:51.22,64.25 10 0
+github.com/sub-rat/goclass/array_practise/array_practise.go:71.2,71.32 1 0
+github.com/sub-rat/goclass/array_practise/array_practise.go:64.25,65.26 1 0
+github.com/sub-rat/goclass/array_practise/array_practise.go:65.26,68.4 1 0
+github.com/sub-rat/goclass/array_practise/questions.go:7.27,8.11 1 1
+github.com/sub-rat/goclass/array_practise/questions.go:11.2,11.10 1 1
+github.com/sub-rat/goclass/array_practise/questions.go:8.11,10.3 1 1
+github.com/sub-rat/goclass/array_practise/questions.go:14.50,17.11 1 1
+github.com/sub-rat/goclass/array_practise/questions.go:21.2,21.42 1 1
+github.com/sub-rat/goclass/array_practise/questions.go:25.2,26.16 2 1
+github.com/sub-rat/goclass/array_practise/questions.go:32.2,34.43 2 1
+github.com/sub-rat/goclass/array_practise/questions.go:17.11,19.3 1 1
+github.com/sub-rat/goclass/array_practise/questions.go:21.42,23.3 1 1
+github.com/sub-rat/goclass/array_practise/questions.go:26.16,29.3 2 1
+github.com/sub-rat/goclass/formattingexample/formattingexample.go:12.55,13.20 1 1
+github.com/sub-rat/goclass/formattingexample/formattingexample.go:16.2,52.15 28 1
+github.com/sub-rat/goclass/formattingexample/formattingexample.go:13.20,15.3 1 0

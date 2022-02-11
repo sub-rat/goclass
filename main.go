@@ -1,5 +1,7 @@
 package main
 
+import "github.com/sub-rat/goclass/formattingexample"
+
 // var a int8 = -1
 
 // const PI = 3.27
@@ -20,4 +22,5 @@ func main() {
 	// examplejson.InitExampleFile()
 	// examplejson.InitExampleFileWrite()
 	// fmt.Println(arraypractise.IntMin(1, 5))
+	formattingexample.InitNumberParsing()
 }
