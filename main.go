@@ -1,6 +1,8 @@
 package main
 
-import "github.com/sub-rat/goclass/formattingexample"
+import (
+	exmphttp "github.com/sub-rat/goclass/exmp_http"
+)
 
 // var a int8 = -1
 
@@ -22,5 +24,10 @@ func main() {
 	// examplejson.InitExampleFile()
 	// examplejson.InitExampleFileWrite()
 	// fmt.Println(arraypractise.IntMin(1, 5))
-	formattingexample.InitNumberParsing()
+	// argsWithName := os.Args
+	// args := argsWithName[1:]
+	// fmt.Println(args)
+	// formattingexample.InitNumberParsing(args[0])
+
+	exmphttp.InitHttpExample()
 }

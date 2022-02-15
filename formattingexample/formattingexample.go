@@ -53,8 +53,8 @@ func InitFormattingExample(x int, y int) (int, error) {
 	return 1, nil
 }
 
-func InitNumberParsing() {
-	i, err := strconv.ParseInt("10", 10, 64)
+func InitNumberParsing(a string) {
+	i, err := strconv.ParseInt(a, 10, 64)
 	if err != nil {
 		panic(err)
 	}

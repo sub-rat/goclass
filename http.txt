@@ -1,0 +1,43 @@
+
+URL = https://api2.binance.com/api/v3/ticker/24hr
+
+To fetch data
+GET 
+https://api2.binance.com/api/v3/ticker/24hr/symbol=ETHBTC
+
+
+To Insert data
+create
+POST
+URL https://api2.binance.com/api/v3/ticker/24hr
+data = {
+    symbol: "GOBTC",
+    priceChange: "0.00059900",
+}
+
+
+TO update data
+PUT/PATCH
+
+To Delete data
+DELETE
+https://api2.binance.com/api/v3/ticker/24hr/ETHBTC
+
+
+
+
+
+//
+
+//
+
+url => https://adventure-works.com
+
+/orders
+GET => list of orders => success = 200
+POST => create order => success = 201
+
+/orders/{id}
+GET=> get order of {id}
+PUT/PATCH=> update order of {id}
+DELETE=>  delete order of {id} status code= 204
