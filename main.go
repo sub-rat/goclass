@@ -29,5 +29,6 @@ func main() {
 	// fmt.Println(args)
 	// formattingexample.InitNumberParsing(args[0])
 
-	exmphttp.InitHttpExample()
+	// exmphttp.InitHttpExample()
+	exmphttp.StartServer()
 }
