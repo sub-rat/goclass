@@ -28,8 +28,24 @@ func StartServer() {
 }
 
 func hello(w http.ResponseWriter, req *http.Request) {
-	if value, ok := req.Header["Accept"]; ok {
-		fmt.Println("header = ", value)
-	}
+	// ctx := req.Context()
+	// _, err := http.Post("http://exampl.com", "application/json", nil)
+	// http.Error(w, "error in hello", 505)
+
+	// select {
+	// case <-time.After(3 * time.Second):
+	// 	if value, ok := req.Header["Accept"]; ok {
+	// 		fmt.Println("header = ", value)
+	// 	}
+	// case <-ctx.Done():
+	// 	err := ctx.Err()
+	// 	fmt.Println("server error:", err)
+	// 	// http.Error(w, err.Error(), http.StatusInternalServerError)
+
+	// }
+
+	// if value, ok := req.Header["Accept"]; ok {
+	// 	fmt.Println("header = ", value)
+	// }
 	w.Write([]byte("hello"))
 }

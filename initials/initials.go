@@ -74,6 +74,7 @@ func Swap(a, b *int) {
 	fmt.Println("In Swap func value of b = ", *b)
 }
 
+//SumOfEvenOdd takes n as input no, return even,odd and error
 func SumOfEvenOdd(n, start int) (int, int, error) {
 	even := 0
 	odd := 0
