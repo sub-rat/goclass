@@ -1,0 +1,2 @@
+# goclass
+Go class practise
